@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week-five-algo</title>
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+</head>
+
+<body>
+
+  <div class="algorithms">
+
+  <!--first-algo-->
+
+  <div class="algo-one">
+
+        
+        <h5>Algo-one</h5>
+        <p id="myParagraph">Dad is My Hero</p>
+    
+        <button onclick="changeText()   ">changeText</button>
+        <br />
+        <br />
+
+  </div>
+  
+
+  <!--two-algo-->
+  <div class="logic-two">
+
+<h5>Algo-two</h5>
+<input type="text" id="textInput" oninput="characterCounter(  )" />
+<p id="characterCount">0</p>
+
+</div>
+  
+  <!-- third-algo-->
+
+  <div class="algo-three">
+
+<h5>Algo-three</h5>
+
+<div class="image-gallery">
+
+  <img class="img" src="./images/3.jpg" onclick="showImage('./images/3.jpg')">
+
+  <img class="img" src="./images/1.jpeg" onclick="showImage('./images/1.jpeg')">
+
+  <img class="img" src="./images/2.jpeg" onclick="showImage('./images/2.jpeg')">
+
+</div>
+
+<img id="largeImage" src="" style="display: none;">
+
+
+</div>
+  
+
+<!-- 4. Write a function that counts and displays the frequency of each word in a given sentence. -->
+
+<div class="algo-four">
+
+  <h5>Algo four</h5>
+
+  <textarea id="sentenceInput"></textarea>
+  
+  <button onclick="wordFrequencyCounter()">Count Words</button>
+  
+  <ul id="wordList"></ul>
+
+</div>
+
+
+
+
+  <!-- 5. Write a function that checks if two password inputs match and displays the result. -->
+  
+  <div class="algo-five">
+
+    <h5>Algo five</h5>
+
+<input type="password" id="password1" placeholder="Enter password">
+
+<input type="password" id="password2" placeholder="Confirm password">
+
+<button onclick="checkPasswordMatch()">Check Match</button>
+
+<p id="matchResult"></p>
+
+  </div>
+  
+
+<!-- 6. Write a function that validates a credit card number and displays the result. -->
+
+<div class="algo-six">
+
+  <h5>Algo six</h5>
+
+<input type="text" id="creditCardInput" placeholder="Enter credit card number">
+
+<button onclick="validateCreditCard()">Validate</button>
+
+<p id="validationResult"></p>
+
+</div>
+
+
+
+<!-- 7. Create a dynamic list where users can add and remove items. -->
+
+<div class="algo-seven">
+
+  <h5>Algo seven</h5>
+
+<input type="text" id="itemInput" placeholder="Enter item">
+
+<button onclick="addItem()">Add Item</button>
+
+<ul id="itemList"></ul>
+
+</div>
+
+
+
+<!-- 8. Write a function that checks if a given word is a palindrome and displays the result. -->
+
+
+<div class="algo-eight">
+
+<h5>Algo-eight</h5>
+<input type="text" id="wordInput" placeholder="Enter a word">
+
+<button onclick="checkPalindrome()">Check Palindrome</button>
+
+<p id="palindromeResult"></p>
+
+</div>
+
+  
+
+  <!--ninth-algo-->
+
+  <div class="algo-nine">
+
+    <h5>Algo-nine</h5>
+    
+    <button onclick="startTimer(60)">Start Timer</button>
+    
+    <p id="timerDisplay">Time remaining: </p>
+
+  </div>
+ 
+
+
+  <!--tenth-algo-->
+
+  <div class="algo-ten">
+
+    <h5>Algo-ten</h5>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode
+
+  </div>
+
+
+
+
+  </div>
+
+  
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.image-gallery {
+  display: flex;
+}
+
+
+.thumbnail {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#largeImage {
+  display: block;
+  margin-top: 20px;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #f0f0f0;
+}
+
+
+.algo-one{
+  margin-top: 5rem;
+}
+
+.algo-two {
+  margin-top: 5rem;
+}
+
+.algo-three {
+  margin-top: 5rem;
+}
+
+.algo-four {
+  margin-top: 5rem;
+}
+
+.algo-five {
+  margin-top: 5rem;
+}
+
+.algo-six {
+  margin-top: 5rem;
+}
+
+.algo-seven
+{
+  margin-top: 5rem;
+}
+
+.algo-eight {
+  margin-top: 5rem;
+}
+
+.algo-nine {
+  margin-top: 5rem;
+}
+
+.algo-ten {
+  margin-top: 5rem;
+}
+
+
+h5{
+  font-size: 3rem;
+  font-weight: 300;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
